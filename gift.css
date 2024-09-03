@@ -1,0 +1,47 @@
+h1{
+    font-family: "Great Vibes", cursive;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 75px;
+    text-decoration: solid underline;
+    margin-left: 20px;
+    z-index: 1;
+    color: rgb(148, 1, 1);
+    text-shadow: 5px 5px 5px #A7E6FF;
+}
+button{
+    border-left: 20px;
+}
+#video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;  
+    color: #A7E6FF;
+    opacity: 50%;
+}
+.buttons{
+    margin-left: 20px;
+}
+button{
+    border: none;
+    border-radius: 5px;
+    background-color: #E63E6D;
+}
+#Deenamma{
+    width: 362px;
+    height: 640px;
+}
+.flexfirst{
+    display: flex;
+    gap: none;
+    align-items: end;
+}
+.text{
+    border-left: 30px;
+    padding: 30px;
+    text-shadow: 5px 5px 5px #2E073F;
+    font-family: "Caveat", cursive;
+    font-size: 30px;
+}

@@ -1,0 +1,77 @@
+html{
+    background-color: #FFF5E4;
+}
+h1{
+    font-family: "Great Vibes", cursive;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 75px;
+    text-decoration: solid underline;
+    text-shadow: 3px 3px 3px #FF9494;
+    margin-left: 20px;
+}
+.btn{
+    background-color: #914646;
+    border: none;
+    width: 90px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.btn:hover{
+    box-shadow: 5px 5px 5px 5px #000;
+    transform: scale(1.2, 1.2);
+    opacity: 0.5;
+    transition-delay: 0.1s;
+}
+.pic{
+    display: grid;
+    place-items: center;
+}
+.toppic,.bottompic{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+.layer2,.layer4{
+    width: 500px;
+    height: 500px;
+    border-radius: 10%;
+}
+.middlepic{
+    width: 300px;
+    height: 700px;
+    border-radius: 10%;
+}
+.penultimate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1,.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.text1{
+    font-family: "Indie Flower", cursive;
+    font-weight: bolder;
+    text-align: center;
+}
+.text1:hover,.text2:hover{
+    transform: scale(1.2,1.2);
+    background-color: #FFF5E4;
+    text-shadow: 3px 3px 3px #FF9494;
+    box-shadow: 3px 3px 3px 3px #FF9494;
+    border-radius: 15px;
+}
+img:hover{
+    box-shadow: 5px 5px 5px 5px #AAC4FF;
+}
+.text2{
+    font-family: "Indie Flower", cursive;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+}

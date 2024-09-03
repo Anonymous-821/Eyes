@@ -1,0 +1,75 @@
+html{
+    background-color: #D2DAFF;
+}
+h1{
+    font-family: "Great Vibes", cursive;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 75px;
+    text-decoration: solid underline;
+    text-shadow: 0px 5px 5px #720384;
+    margin-left: 20px;
+}
+.heading{
+    padding: 10px;
+}
+.buttons{
+    margin: 20px;
+}
+.btn{
+    background-color: #7e29be;
+    border: none;
+    width: 90px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.btn:hover{
+    box-shadow: 5px 5px 5px 5px #000;
+    transform: scale(1.2, 1.2);
+    opacity: 0.5;
+    transition-delay: 0.1s;
+}
+#longhor{
+    width: 600px;
+    height: 400px;
+    border-radius: 20px;
+}
+.good{
+    width: 600px;
+    height: 350px;
+    border-radius: 20px;
+}
+.container img{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 5px;
+}
+.mad{
+    transform: rotate(270deg);
+    width: 400px;
+    height: 600px;
+    border-radius: 20px;
+    margin-left: 80px;
+}
+.mad:hover{
+    box-shadow: 5px 5px 5px 5px #520f9e;
+    border: none;   
+}
+.text{
+    font-family: "Sevillana", cursive;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 25px;
+    text-shadow: 0px 3px 3px #3c4779;
+    margin: 15px;
+}
+.big{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+}
+img:hover{
+    box-shadow: 5px 5px 5px 5px #520f9e;
+}

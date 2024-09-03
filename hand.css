@@ -1,0 +1,49 @@
+html{
+    background-color: #B0EBB4;
+}
+h1{
+    font-family: "Great Vibes", cursive;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 75px;
+    text-decoration: solid underline;
+    text-shadow: 5px 5px 5px #E6A4B4;
+    margin-left: 20px;
+}
+.buttons{
+    margin-left: 20px;
+}
+button{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF90BC;
+}
+.chart{
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+}
+.pic{
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+}
+.para{
+    padding: 15px;
+    font-family: "Qwitcher Grypen", cursive;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.pic:hover{
+    box-shadow: 4px 4px 4px 4px #B784B7;
+    transform: scale(1.2, 1.2);
+}
+.para:hover{
+    transform: scale(1.1, 1.1);
+    text-shadow: 5px 5px 5px #780070;
+}

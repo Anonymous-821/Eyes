@@ -1,0 +1,86 @@
+html{
+    background-color: #FFF5E4;
+}
+h1{
+    font-family: "Great Vibes", cursive;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 75px;
+    text-decoration: solid underline;
+    text-shadow: 0px 3px 3px #f52a74;
+    margin-left: 20px;
+}
+.heading{
+    padding: 10px;
+}
+.buttons{
+    margin: 20px;
+}
+.btn{
+    background-color: #7faf17;
+    border: none;
+    width: 90px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.btn:hover{
+    box-shadow: 5px 5px 5px 5px #000;
+    transform: scale(1.2, 1.2);
+    opacity: 0.5;
+    transition-delay: 0.1s;
+}
+#one{
+    width: 400px;
+    height: 400px;
+}
+#two{
+    width: 450px;
+    height: 500px;
+}
+#three{
+    width: 500px;
+    height: 800px;
+}
+#four{
+    width: 300px;
+    height: 700px;
+}
+#five{
+    width: 350px;
+    height: 800px;
+}
+#six{
+    width: 400px;
+    height: 700px;
+    margin: 0px;
+}
+.make{
+    display: flex;
+    flex-direction: row;
+}
+.out{
+    display: flex;
+    flex-direction: row;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: none;
+}
+.text{
+    padding: 20px;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: normal;
+    text-shadow: 0px 3px 3px #904f4f;
+    margin-left: 40px;
+}
+img:hover{
+    box-shadow: 4px 4px 4px 4px #FFD1D1;
+}
+.text:hover{
+    transform: scale(1.1,1.1);
+}

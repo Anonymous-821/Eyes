@@ -1,0 +1,62 @@
+html{
+    background-color: #CBF1F5;
+}
+h1{
+    font-family: "Great Vibes", cursive;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 75px;
+    text-decoration: solid underline;
+    margin-left: 20px;
+    text-shadow: 0px 3px 3px rgb(221, 221, 110);
+}
+.buttons{
+    margin-left: 20px;
+    padding: 20px;
+}
+button{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #a4a342;
+}
+button:hover{
+    box-shadow: 5px 5px 5px 5px #000;
+    transform: scale(1.2, 1.2);
+    opacity: 0.5;
+    transition-delay: 0.1s;
+}
+p{
+    margin-top: 20px;
+    padding: 15px;
+    text-align: start;
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: "Handlee", cursive;
+    font-size: larger;
+    border-top: 20px;
+    margin-top: 60px;
+    padding-top: 25px;
+}
+.corner{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+}
+.long{
+    width: 300px;
+    height: 600px;
+    border-radius: 15px;
+}
+.middleBanner{
+    display: flex;
+    margin-left: 5px;
+}
+.topBanner .bottomBanner{
+    margin-left: 5px;
+    padding: 1px;
+}
+img{
+    box-shadow: 5px 5px 5px 5px rgb(128, 196, 132);
+}
